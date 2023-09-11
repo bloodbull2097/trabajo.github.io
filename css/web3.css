@@ -1,0 +1,24 @@
+.titulo{
+    text-align: center;
+    background-color: red;
+}
+.menu{
+    text-align: center;
+    background-color: rgba(30, 157, 189, 0.74);
+}
+.fondo{
+    background-color: rgb(189, 197, 197);
+}
+.fondomaps{
+    background-color: black;
+    padding: 10px;
+}
+.fondos{
+    background-image: url('https://live.staticflickr.com/1021/905999927_356f38e8f5_b.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.paginas{
+    color: black;
+}

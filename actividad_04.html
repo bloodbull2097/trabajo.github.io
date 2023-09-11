@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Actividad 04</title>
+		<link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<style type="text/css">
+			@font-face {
+				font-family: 'QuicksandBook';
+				src: url('fonts/Quicksand_Book-webfont.eot');
+				src: url('fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+					url('fonts/Quicksand_Book-webfont.woff') format('woff'),
+					url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+					url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+				font-weight: normal;
+				font-style: normal;}
+			body {
+				color: #ffffff;
+				background: #413f3b url("https://live.staticflickr.com/1210/1460673679_ab4453a190_k.jpg");
+				font-family: Georgia, "Times New Roman", Times, serif;
+				font-size: 90%;
+				margin: 0px;
+				text-align: center;
+			}
+			/*carrucel  */
+			.sliders{			
+			  width: 88%;
+			  margin:30px 10px 20px 3px;
+			  overflow: hidden;
+			
+			
+			}
+			.sliders ul{			
+			padding: 10px;
+			display: flex;
+			width: 600%;
+			animation:  cambios 12s infinite; 
+			}
+			.sliders li{			
+			list-style: none;
+			width: 100%;
+			padding: 0px 10px;
+			}
+			.sliders img{
+			  width: 100%;
+			}
+			@keyframes cambios{
+			  0%{margin-left: 0%;}
+			  20%{margin-left: 0%;}
+			
+			  20%{margin-left: -40%;}
+			  40%{margin-left: -40%;}
+			
+			  40%{margin-left: -80%;}
+			  60%{margin-left: -80%;}
+
+			  80%{margin-left: -120%;}
+			  100%{margin-left: -120%;}
+			  
+			
+			
+			} 
+			/*final del carrucel  */
+
+			a {
+				color: #b19a26;
+				text-decoration: none;
+				text-align: center;	
+			}
+			a:hover {
+				color: #ffffff;}
+			.header {
+				background : black;
+				padding: 0px 0px 0px 0px;
+				height: 100px;
+				position: fixed;
+				top: 0px;
+				width: 100%;
+				z-index: 50;}
+			.nav {
+				float: right;
+				font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+				padding: 45px 0px 0px 0px;
+				text-align: right;}
+			.wrapper {
+				width: 960px;
+				margin: 0px auto;
+				/*imagen baner */
+				background-image: url("");
+				background-repeat: no-repeat;
+				background-position: 0px 0px;
+				text-align: left;}
+			.logo {
+				margin-bottom: 20px;}
+			h1, h2 {
+				font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+				font-weight: normal;
+				text-transform: uppercase;}
+			h1 {
+				font-size: 240%;
+				margin-top: 140px;}
+			.date {
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 75%;
+				color: #509c1e;}
+			.intro {
+				clear: left;
+				font-size: 90%;
+				line-height: 1.4em;}
+			.main-story {
+				/*imagenes baner*/
+				background-image: url("images/tria.png");
+				background-repeat: no-repeat;
+				background-position: 122px 142px;
+				height: 570px;}
+			.more-articles {
+				border-top: 1px solid #ffffff;
+				padding: 10px;}
+			.more-articles p {
+				border-bottom: 1px solid #f0b00f;
+				padding: 5px 0px 15px 0px;
+				font-size: 80%;}
+			.more-articles p:last-child {
+				border-bottom: none;}
+			.footer {
+				clear: both;
+				background: rgba(0, 0, 0, 0.2);
+				padding: 5px 10px;}
+			.footer p {
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 75%;
+				text-align: right;}
+			.footer a {
+				color: #807c72;}
+				.fondo{
+					background-color: #383734df;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="header ">
+			<div class="container_12 ">
+				<div class="grid_5">
+					<img src="https://live.staticflickr.com/817/40215035864_7770bbaa9f_s.jpg" width="90" height="90"  alt="Pedal Faster - The modern bicycle magazine" width="216" height="37" class="logo" />
+
+				</div>
+
+				<!-----------------------------menus-->
+				<div class="nav grid_7">
+					<a href="index.html">inicio</a> / <a href="https://barbarojacoffee.com/la-estacion-de-cafe-en-eventos-sociales/">Eventos</a> 
+					/ <a href="https://corferias.com/es/calendario/2023">Calendario </a> / <a href="https://corferias.com/es/conoce-mas-sobre-corferias/">aceca de</a> 
+					/ <a href="https://www.facebook.com/facebook/">contacto</a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper ">
+			<div class="main-story container_12 fondo">
+				<div class="grid_6 push_6">
+					<h1><a href="">Ordena A tu gusto</a></h1>
+				</div>
+				<div class="intro grid_12 push_1">
+					<div class="col-sm-12 prueba col-sm-12 col-md-12">
+						<div class="col sliders">
+							<ul>
+							  <il >
+								<img src="https://live.staticflickr.com/4112/4973455233_a8e4fdb125_z.jpg" width="600" height="290">
+							  </il>
+							  <il>
+								<img src="https://live.staticflickr.com/549/31558387273_732752300a_z.jpg" width="600" height="290">
+							  </il>
+							  <il>
+								<img src="https://live.staticflickr.com/8021/7324323806_b7d69020f5_z.jpg" width="600" height="290">
+							  </il>
+							  <il >
+								<img src="https://live.staticflickr.com/4112/4973455233_a8e4fdb125_z.jpg" width="600" height="290">
+							  </il>
+							  <il>
+								<img src="https://live.staticflickr.com/549/31558387273_732752300a_z.jpg" width="600" height="290">
+							  </il>
+							  <il>
+								<img src="https://live.staticflickr.com/8021/7324323806_b7d69020f5_z.jpg" width="600" height="290">
+							  </il>
+							</ul>
+						  </div>
+					</div>
+				</div>
+				</div>
+			</div><!-- .main-story -->
+			<br>
+			<!-------------------------------recuadros inferiores -->
+			<div class="more-articles container_12  ">
+				<div class="container">
+					<div class="row">
+				<h2 class="grid_12 "><a href="">Mas Articulos</a></h2>
+				<div class="col-12 fondo col-sm-12 col-md-12 col-xl-3 ">
+					<!-----------------------recuadros n°1-->
+					<img src="https://live.staticflickr.com/8619/16342091899_ba64c6d7bc_n.jpg" alt="The road ahead" width="220" height="125" />
+					<p><a href="https://www.falabella.com.co/falabella-co">Bebidas calientes</a></p>
+					<p><a href="https://www.falabella.com.co/falabella-co">Prueba Nuestras Bebidas Calientes como cafe Nacional , te y algunas bebidas mas exoticas</a></p>
+				</div>
+				<div class="col-12 fondo col-sm-12 col-md-12 col-xl-3 ">
+					<!-----------------------recuadros n°2-->
+					<img src="https://live.staticflickr.com/65535/51497292977_7b535b5bb4_n.jpg" alt="Sketchbook" width="220" height="125" />
+					<p><a href="https://www.falabella.com.co/falabella-co">Postres</a></p>
+					<p><a href="https://www.falabella.com.co/falabella-co">Mira algunso de Nuestros postres mas suculentos pero hay mas conocelos en nuestras Instalaciones</a></p>
+				</div>
+				<div class="col-12 fondo col-sm-12 col-md-12 col-xl-3">
+					<!-----------------------recuadros n°3-->
+					<img src="https://live.staticflickr.com/4124/5043020910_2a75d300df_n.jpg" alt="Repair shop sign" width="220" height="125" />
+					<p><a href="https://www.falabella.com.co/falabella-co">Instalaciones</a></p>
+					<p><a href="https://www.falabella.com.co/falabella-co">Nuestras Instalaciones manejan un diseño clasico con ambiente perfecto para estar una tarde leyendo un buen libro</a></p>
+				</div>
+				<div class="col-12 fondo col-sm-12 col-md-12 col-xl-3">
+					<!-----------------------recuadros n°4-->
+					<img src="https://live.staticflickr.com/2261/2074519272_79488c175f_n.jpg" alt="Schwinn Spitfire" width="220" height="125" />
+					<p><a href="https://www.falabella.com.co/falabella-co">Eventos</a></p>
+					<p><a href="https://www.falabella.com.co/falabella-co">Tenemos eventos a lo largo de toda la semana visitanos y no pierdas la oportunidad de participar</a></p>
+				</div>
+				</div>
+				</div>
+			</div><!-- .more-articles -->
+		</div><!-- .wrapper -->
+		<div class="footer clearfix">
+			<div class="container_12">
+				<p class="grid_12"><a href="">Información Legal</a> | <a href="">Politicas  de Privacidad </a> | <a href="">Copyright &copy; Pedal Faster 2023</a></p>
+			</div>
+		</div>
+	</body>
+</html>
